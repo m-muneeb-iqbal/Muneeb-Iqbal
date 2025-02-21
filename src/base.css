@@ -98,7 +98,7 @@ body {
     position: relative;
 }
 .navmenu li:hover>a{
-    color: var(--accLink);
+    color: var(--stybg);
     border-radius: 5px;
     background-color: var(--styfg);
     transition: color 0.3s ease;
@@ -228,8 +228,12 @@ body {
 .cv-head a{
     color: var(--styfg);
 }
-.cv-head a:hover{
-    color: var(--accLink);
+
+.cv-head:hover {
+    background-color: var(--styfg);
+}
+.cv-head:hover a{
+    color: var(--stybg);
 }
 /* ----------------- Headings --------------- */
 h1{
