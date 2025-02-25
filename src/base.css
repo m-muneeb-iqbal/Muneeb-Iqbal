@@ -213,7 +213,7 @@ body {
   }
   
 .Social i:hover {
-    color: var(--accLink);
+    color: var(--styfg);
   }
 .cv-head{
     width: 25%;
