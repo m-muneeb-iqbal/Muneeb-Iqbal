@@ -232,6 +232,7 @@ body {
 
 .cv-head:hover {
     background-color: var(--styfg);
+    cursor: pointer;
 }
 .cv-head:hover a{
     color: var(--stybg);
