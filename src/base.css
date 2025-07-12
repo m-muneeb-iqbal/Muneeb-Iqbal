@@ -167,6 +167,9 @@ body {
     font-size: 1.93em;
     font-weight: bold;
 }
+.heading {
+    font-weight: bold;
+}
 .bio .label{
     font-size: 1.2em;
 }
