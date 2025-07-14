@@ -168,9 +168,12 @@ body {
     font-weight: bold;
 }
 .label{
-    font-size: 1.2rem;
+    font-size: 1.23rem;
 }
-.edu li, .about-text, .bio, .work li, .edu p{
+.about-text{
+    font-size: 1.13rem;
+}
+.edu li, .bio, .work li, .edu p{
     font-size: 0.93rem;
 }
 .edu h2, .work h2 {
