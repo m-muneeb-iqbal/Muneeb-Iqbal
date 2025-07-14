@@ -164,7 +164,7 @@ body {
     color: var(--leftfg);
 }
 .bio .name{
-    font-size: 1.93em;
+    font-size: 2.0rem;
     font-weight: bold;
 }
 .label{
