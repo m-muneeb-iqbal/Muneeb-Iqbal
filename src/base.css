@@ -167,11 +167,20 @@ body {
     font-size: 1.93em;
     font-weight: bold;
 }
+.label{
+    font-size: 1.2rem;
+}
+.edu li, .about-text, .bio, .work li, .edu p{
+    font-size: 0.93rem;
+}
+.edu h2, .work h2 {
+    font-size: 1.43rem;
+}
+.edu h3, .work h3{
+    font-size: 1.13rem;
+}
 .heading {
     font-weight: bold;
-}
-.bio .label{
-    font-size: 1.2em;
 }
 /* Contact */
 .contact {
@@ -273,12 +282,6 @@ p {
 }
 a {
     text-decoration: none;
-}
-.right a{
-    color: var(--rightfg);
-}
-a:hover{
-    color: var(--accLink);
 }
 /* -------------- Right Section ------------- */
 .about{
