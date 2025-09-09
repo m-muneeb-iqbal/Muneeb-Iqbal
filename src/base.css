@@ -267,11 +267,17 @@ h2{
     margin-top: 1em;
     margin-bottom: 0.05em;
 }
-h3{
+h4{
     font-weight: normal;
-    font-style: italic;
     letter-spacing: normal;
     font-size: 0.95em;
+    margin-top: 0.05em;
+    margin-bottom: 0.05em;
+}
+h5{
+    font-weight: normal;
+    letter-spacing: normal;
+    color: gray;
     margin-top: 0.05em;
     margin-bottom: 0.05em;
 }
