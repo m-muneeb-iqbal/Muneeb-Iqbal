@@ -313,20 +313,30 @@ a {
     margin-right: 7.5%;
     margin-top: 12.5vh;
 }
-.skill-set{
-    padding-left: 0;
-}
-.skill-set li{
+.skill li {
     background: var(--stybg);
     color: var(--styfg);
     border-radius: 5px;
-    display: inline-block;
     list-style: none;
-    margin: 1em 1em 0 0;
     padding: 5px;
-    text-align: justify;
+    text-align: center;
     font-size: 1em;
     letter-spacing: 0.03em;
+    display: block;
+}
+.frameworks, .tools, .databases, .languages {
+    padding-left: 0;
+    display: grid;
+    gap: 1em; 
+}
+.frameworks, .tools {
+    grid-template-columns: repeat(4, 1fr);
+}
+.databases {
+    grid-template-columns: repeat(3, 1fr); 
+}
+.languages {
+    grid-template-columns: repeat(6, 1fr); 
 }
 .pub{
     margin-left: 7.5%;
@@ -382,14 +392,4 @@ a {
     .edu{margin-top: 0;}
     .pub{margin-top: 0;}
     .skill{margin-top: 0;}
-    .skill-set li{
-        border-radius: 5px;
-        display: inline-block;
-        list-style: none;
-        margin: 0.5em 0.5em 0 0;
-        padding: 0.75em;
-        text-align: justify;
-        font-size: 1em;
-        letter-spacing: normal;
-    }
 } 
