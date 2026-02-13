@@ -143,13 +143,13 @@ body {
 }
 /* Pic */
 .profilePic {
-    height: 14em;
-    width: 15em;
+    height: 11em;
+    width: 11em;
     margin: auto;
     display: block;
     border: solid 0.1em var(--leftfg);
-    border-radius: 50%;
-    margin-top: 12vh;
+    border-radius: 20px;
+    margin-top: 10vh;
     margin-bottom: 1em;
 }
 /* Bio */
@@ -160,7 +160,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-bottom: 1em;
+    margin-bottom: 0;
     color: var(--leftfg);
 }
 .bio .name{
@@ -206,8 +206,9 @@ body {
 .contact i{
     color: var(--leftfg);
 }
-.contact a:hover{
-    color: var(--accLink);
+
+.contact a:hover, .contact i:hover{
+    color: var(--styfg);
 }
 .Social {
     width: 100%;
@@ -231,26 +232,27 @@ body {
     color: var(--styfg);
   }
 .cv-head{
-    width: 25%;
+    width: 30%;
+    font-size: 1.2em;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin: auto;
     border-radius: 5px;
-    background-color: var(--stybg);
+    background-color: var(--styfg);
     border: solid 0.1em var(--accHead);
 }
 .cv-head a{
-    color: var(--styfg);
+    color: var(--stybg);
 }
 
 .cv-head:hover {
-    background-color: var(--styfg);
+    background-color: var(--stybg);
     cursor: pointer;
 }
 .cv-head:hover a{
-    color: var(--stybg);
+    color: var(--styfg);
 }
 /* ----------------- Headings --------------- */
 h1{
