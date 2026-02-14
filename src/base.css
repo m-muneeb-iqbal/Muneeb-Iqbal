@@ -325,11 +325,12 @@ a {
     font-size: 1em;
     letter-spacing: 0.03em;
     display: block;
+    border-radius: 0.3em;
 }
 .frameworks, .tools, .databases, .languages {
     padding-left: 0;
     display: grid;
-    gap: 1em; 
+    gap: 1em;
 }
 .frameworks, .tools {
     grid-template-columns: repeat(4, 1fr);
