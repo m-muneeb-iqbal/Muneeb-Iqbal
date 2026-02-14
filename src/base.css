@@ -316,9 +316,9 @@ a {
     margin-top: 12.5vh;
 }
 .skill li {
-    background: var(--stybg);
-    color: var(--styfg);
-    border-radius: 5px;
+    background: var(--styfg);
+    color: var(--stybg);
+    border: solid 0.1em var(--leftfg);
     list-style: none;
     padding: 5px;
     text-align: center;
