@@ -254,6 +254,28 @@ body {
 .cv-head:hover a{
     color: var(--styfg);
 }
+.certificate-head{
+    width: 16%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 5px;
+    background-color: var(--stybg);
+    border: solid 0.1em var(--accHead);
+}
+.certificate-head a{
+    color: var(--styfg);
+}
+
+.certificate-head:hover {
+    background-color: var(--styfg);
+    cursor: pointer;
+}
+.certificate-head:hover a{
+    color: var(--stybg);
+}
 /* ----------------- Headings --------------- */
 h1{
     font-weight: normal;
