@@ -173,13 +173,13 @@ body {
 .about-text{
     font-size: 1.13rem;
 }
-.edu li, .bio, .work li, .edu p{
+.edu li, .bio, .work li, .edu p, .certifications li{
     font-size: 0.93rem;
 }
-.edu h2, .work h2 {
+.edu h2, .work h2, .certifications h2 {
     font-size: 1.43rem;
 }
-.edu h3, .work h3{
+.edu h3, .work h3, .certifications h3{
     font-size: 1.13rem;
 }
 .heading {
@@ -277,37 +277,34 @@ body {
     color: var(--stybg);
 }
 /* ----------------- Headings --------------- */
-h1{
+h1, h2, h4, h5, p {
     font-weight: normal;
+}
+h2, h4, h5, p {
+    letter-spacing: normal;
+}
+h1{
     font-size: 1.5em;
     letter-spacing: 0.125em;
     margin-top: 1.225em;
     margin-bottom: 0.2em;
 }
 h2{
-    font-weight: normal;
-    letter-spacing: normal;
     font-size: 1.05em;
     margin-top: 1em;
     margin-bottom: 0.05em;
 }
 h4{
-    font-weight: normal;
-    letter-spacing: normal;
     font-size: 0.95em;
     margin-top: 0.05em;
     margin-bottom: 0.05em;
 }
 h5{
-    font-weight: normal;
-    letter-spacing: normal;
     color: gray;
     margin-top: 0.05em;
     margin-bottom: 0.05em;
 }
 p {
-    font-weight: normal;
-    letter-spacing: normal;
     font-size: 0.95em;
     margin-top: 0.3em;
     margin-bottom: 0.3em;
@@ -317,25 +314,24 @@ a {
     text-decoration: none;
 }
 /* -------------- Right Section ------------- */
-.about{
+.about, .work, .edu, .skill, .certifications {
     margin-left: 7.5%;
     margin-right:7.5%;
+}
+.about{
     margin-top: 22.5vh;
-    }
+}
 .work{
-    margin-left: 7.5%;
-    margin-right: 7.5%;
     margin-top: 10vh;
-    }
+}
 .edu{
-    margin-left: 7.5%;
-    margin-right: 7.5%;
     margin-top: 17.5vh;
-    }
+}
 .skill{
-    margin-left: 7.5%;
-    margin-right: 7.5%;
     margin-top: 12.5vh;
+}
+.certifications{
+    margin-top: 10vh;
 }
 .skill li {
     background: var(--styfg);
