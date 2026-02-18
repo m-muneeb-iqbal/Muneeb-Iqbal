@@ -176,17 +176,19 @@ body {
 .edu li, .bio, .work li, .edu p, .certifications li{
     font-size: 0.93rem;
 }
-.edu h2, .work h2, .certifications h2 {
-    font-size: 1.43rem;
-}
 .edu h3, .work h3, .certifications h3{
     font-size: 1.13rem;
 }
-.heading {
+.section-heading {
     font-size: 1.9rem;
     font-weight: bold;
     letter-spacing: 0.12em;
     margin: 0 0 1rem 0;
+}
+.sub-heading {
+    font-size: 1.2rem;
+    font-weight: 600; /* semi-bold */
+    margin-top: 0.5em;
 }
 /* Contact */
 .contact {
@@ -280,10 +282,10 @@ body {
     color: var(--stybg);
 }
 /* ----------------- Headings --------------- */
-h1, h2, h4, h5, p {
+h4, h5, p {
     font-weight: normal;
 }
-h2, h4, h5, p {
+h4, h5, p {
     letter-spacing: normal;
 }
 h1{
@@ -293,7 +295,6 @@ h1{
     margin-bottom: 0.2em;
 }
 h2{
-    font-size: 1.05em;
     margin-top: 1em;
     margin-bottom: 0.05em;
 }
@@ -404,4 +405,6 @@ a {
     .pub{margin-top: 0;}
     .skill{margin-top: 0;}
     .certifications{margin-top: 0;}
+    .section-heading { font-size: 1.6rem; }
+    .sub-heading { font-size: 1rem; }
 } 
