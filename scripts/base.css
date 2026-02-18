@@ -187,7 +187,7 @@ body {
 }
 .sub-heading {
     font-size: 1.2rem;
-    font-weight: 600; /* semi-bold */
+    font-weight: 600;
     margin-top: 0.5em;
 }
 /* Contact */
@@ -331,14 +331,14 @@ a {
     border-radius: 0.3em;
 }
 .edu-item {
-    font-size: 1rem;
+    font-size: 0.84rem;
     line-height: 0;
     margin-bottom: 1.3em;
 }
 .work-item,
 .cert-item,
 .proj-item {
-    font-size: 1rem;
+    font-size: 0.84rem;
     line-height: 1;
     margin-left: 1rem;
     margin-bottom: 0.4em;
