@@ -173,7 +173,7 @@ body {
 .about-text{
     font-size: 1.13rem;
 }
-.edu li, .bio, .work li, .edu p, .certifications li{
+.bio {
     font-size: 0.93rem;
 }
 .edu h3, .work h3, .certifications h3{
@@ -282,10 +282,10 @@ body {
     color: var(--stybg);
 }
 /* ----------------- Headings --------------- */
-h4, h5, p {
+h4, h5{
     font-weight: normal;
 }
-h4, h5, p {
+h4, h5{
     letter-spacing: normal;
 }
 h1{
@@ -308,12 +308,6 @@ h5{
     margin-top: 0.05em;
     margin-bottom: 0.05em;
 }
-p {
-    font-size: 0.95em;
-    margin-top: 0.3em;
-    margin-bottom: 0.3em;
-    line-height: 1.4;
-}
 a {
     text-decoration: none;
 }
@@ -335,6 +329,19 @@ a {
     letter-spacing: 0.03em;
     display: block;
     border-radius: 0.3em;
+}
+.edu-item {
+    font-size: 1rem;
+    line-height: 0;
+    margin-bottom: 1.3em;
+}
+.work-item,
+.cert-item,
+.proj-item {
+    font-size: 1rem;
+    line-height: 1;
+    margin-left: 1rem;
+    margin-bottom: 0.4em;
 }
 .frameworks, .tools, .databases, .languages {
     padding-left: 0;
@@ -407,4 +414,16 @@ a {
     .certifications{margin-top: 0;}
     .section-heading { font-size: 1.6rem; }
     .sub-heading { font-size: 1rem; }
+    .work-item,
+    .edu-item,
+    .cert-item,
+    .proj-item {
+        font-size: 0.95rem;
+        line-height: 0.96;
+    }
+    .edu-item {
+        font-size: 0.95rem;
+        line-height: 0;
+        margin-bottom: 1.3em;
+    }
 } 
