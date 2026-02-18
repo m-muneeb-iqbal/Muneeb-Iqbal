@@ -317,22 +317,9 @@ a {
 .about, .work, .edu, .skill, .certifications {
     margin-left: 7.5%;
     margin-right:7.5%;
+    margin-top: 12vh;
 }
-.about{
-    margin-top: 22.5vh;
-}
-.work{
-    margin-top: 10vh;
-}
-.edu{
-    margin-top: 17.5vh;
-}
-.skill{
-    margin-top: 12.5vh;
-}
-.certifications{
-    margin-top: 10vh;
-}
+
 .skill li {
     background: var(--styfg);
     color: var(--stybg);
@@ -413,5 +400,5 @@ a {
     .edu{margin-top: 0;}
     .pub{margin-top: 0;}
     .skill{margin-top: 0;}
-    .certification{margin-top: 0;}
+    .certifications{margin-top: 0;}
 } 
